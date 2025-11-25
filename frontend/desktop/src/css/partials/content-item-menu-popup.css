@@ -1,0 +1,23 @@
+.content-item-menu-popup {
+    margin: 20px 170px;
+    position: absolute;
+    width: 600px;
+    height: calc(100vh - 40px);
+    z-index: 9999999;
+    border-radius: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.1); /* Transparência */
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(1px);
+}
+
+/* .tip {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.1); 
+    margin: 20px 160px;
+    z-index: 999999;
+    margin-top: 50px;
+    transform: rotate(45deg);
+} */
